@@ -9,7 +9,7 @@ const app = new express();
 
 // home route
 app.get('/', function(req, res){
-  res.send("node js run with mobile today 29");
+  res.send("node js run with mobile today 30 ok done");
 });
 
 // undefine route
