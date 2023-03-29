@@ -23,7 +23,7 @@ console.log("ok");
 
 
 // app export
-//module.exports = app
+module.exports = app
 
 
 
