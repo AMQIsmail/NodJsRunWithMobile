@@ -7,11 +7,11 @@
 const express  = require('express');
 const app = express();
 // requure api
-const api = require('./src/routes/api');
+//const api = require('./src/routes/api');
 
 // versioning api
-app.use('/', api);
-app.use('/api/v1', api);
+//app.use('/', api);
+//app.use('/api/v1', api);
 
 // undefine route
 app.use('*', function(req, res){
@@ -20,7 +20,7 @@ app.use('*', function(req, res){
 
 // home route
 app.get('/', function(req, res){
-  res.send("hello home route");
+  res.send("hello home route 28");
 });
 
 // app export
