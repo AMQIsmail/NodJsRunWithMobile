@@ -17,10 +17,13 @@ app.use('*', function(req, res){
    res.send("404 ok err 28");
 });
 
+app.listen(300, function(){
+console.log("ok");
+});
 
 
 // app export
-module.exports = app
+//module.exports = app
 
 
 
