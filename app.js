@@ -1,9 +1,3 @@
-
-
-
- 
-
-
 const express  = require('express');
 const app = new express();
 // requure api
@@ -27,3 +21,9 @@ app.use('*', function(req, res){
 
 // app export
 module.exports = app
+
+
+
+ 
+
+
