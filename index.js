@@ -8,7 +8,7 @@ dotenv.config({path:"./config.env"});
 const Port = process.env.PORT;
 
 // app listen 
-app.listen(Port, function() {
+app.listen(300, function() {
     console.log(`Server Runing with mobile PORT ${Port}`);
 });
 
