@@ -5,10 +5,10 @@ const app = require("./app");
 //const dotenv = require("dotenv");
 //dotenv.config({path:"./config.env"});
 // Port number
-//const Port = process.env.PORT;
+const Port = process.env.PORT;
 
 // app listen 
-app.listen(300, function() {
+app.listen(Port, function() {
     console.log(`Server Runing with mobile PORT ${Port}`);
 });
 
